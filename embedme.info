@@ -1,0 +1,11 @@
+name = EmbedMe
+description = A blank theme with messages section for embedding
+
+core = 7.x
+engine = phptemplate
+
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "embedme"
+datestamp = "1369652463"
+
