@@ -3,6 +3,10 @@
     <?php print $scripts; ?>
 </head>
 <body>
+    <div id="skip-link">
+        <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
+    </div>
+
     <div id="page">
         <div id="content" class="clearfix">
             <?php if ($messages): ?>
