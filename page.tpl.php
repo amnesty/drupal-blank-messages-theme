@@ -1,9 +1,15 @@
-<?php if ($messages): ?>
-    <div id="messages">
-        <div class="section clearfix">
-            <?php print $messages; ?>
-        </div>
-    </div>
-<?php endif; ?>
+<div id="page">
+    <div id="content" class="clearfix">
 
-<div id="content-area"><?php print render($page['content']); ?></div>
+        <?php if ($messages): ?>
+            <div id="messages">
+                <div id="console" class="section clearfix">
+                    <?php print $messages; ?>
+                </div>
+            </div>
+        <?php endif; ?>
+
+        <div id="content-area"><?php print render($page['content']); ?></div>
+
+    </div>
+</div>
